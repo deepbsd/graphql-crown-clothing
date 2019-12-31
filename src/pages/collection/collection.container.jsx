@@ -8,7 +8,7 @@ import Spinner from '../../components/spinner/spinner.component';
 
 const GET_COLLECTION_BY_TITLE = gql`
   query getCollectionsByTitle($title: String!) {
-      getCollectionsByTitle(title: $title){
+      getCollectionsByTitle(title: $title) {
           id
           title
           items {

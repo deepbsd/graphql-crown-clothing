@@ -8,7 +8,7 @@ import Spinner from '../spinner/spinner.component';
 
 const GET_COLLECTIONS = gql`
   {
-      collections{
+      collections {
           id
           title
           items {
